@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <span>主页面</span>
+    <span>主页面
+      <li>hello</li>
+    </span>
     <!-- <Login></Login> -->
     <router-view></router-view>
   </div>
@@ -13,6 +15,4 @@ export default {
   }
 }
 </script>
-<style lang="scss">
 
-</style>
